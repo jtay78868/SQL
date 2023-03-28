@@ -7,5 +7,5 @@ ON Patient.PatientID = Drug.PatientID
 
 SELECT CASE
 	WHEN drug.PatientID > 2 THEN ‘disease.PatientID’
-	ELSE ‘PatientID’
+	ELSE ‘Patient.PatientID’
 END
